@@ -31,6 +31,7 @@ To write a Python program that generates **Pascal's Triangle** using numbers. Th
 n = int(input("Enter number of rows: "))
 
 for i in range(n):
+
     num = 1
     
     for j in range(i + 1):
