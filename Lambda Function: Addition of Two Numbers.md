@@ -13,6 +13,7 @@ To write a Python program that defines a **lambda function** which takes two arg
 add = lambda a, b: a + b
 
 x = int(input("Enter first number: "))
+
 y = int(input("Enter second number: "))
 
 print("Sum is:", add(x, y))
