@@ -13,9 +13,11 @@ To write a Python program that defines a function which accepts two values and r
 ## 🧾 Program:
 
 def find_mod(a, b):
+
     return a % b
 
 x = int(input("Enter first number: "))
+
 y = int(input("Enter second number: "))
 
 result = find_mod(x, y)
