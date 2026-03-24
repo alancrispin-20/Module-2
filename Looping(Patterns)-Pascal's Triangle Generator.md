@@ -4,13 +4,13 @@ This project demonstrates a simple Python program to generate **Pascal’s Trian
 
 ---
 
-## 🎯 Aim
+## 🎯 Aim :
 
 To write a Python program that generates **Pascal's Triangle** using numbers. The number of rows is accepted from the user.
 
 ---
 
-## 🧠 Algorithm
+## 🧠 Algorithm :
 
 1. Start the program.
 2. Input the number of rows from the user.
@@ -26,10 +26,21 @@ To write a Python program that generates **Pascal's Triangle** using numbers. Th
 
 ---
 
-## 🧪 Program
-Add Code Here
+## 🧪 Program :
 
-## Sample Output
+n = int(input("Enter number of rows: "))
 
-## Result
+for i in range(n):
+    num = 1
+    for j in range(i + 1):
+        print(num, end=" ")
+        num = num * (i - j) // (j + 1)
+    print()
+    
+## Sample Output :
+<img width="283" height="153" alt="image" src="https://github.com/user-attachments/assets/c2e6ba7f-f647-4568-843e-40d87aed81ca" />
+
+
+## Result :
+Thus, the program was implemented and excuted successfully, and the required output was obtained.
 
